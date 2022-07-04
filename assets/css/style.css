@@ -713,24 +713,24 @@ input{
 
 .details_description{
     font-size: var(--small-font-size);
-    margin-bottom: var(--mb-2)
+    margin-bottom: var(--mb-2);
 }
 
-.details_info li{
+.detail_info li{
     margin-bottom: var(--mb-0-75);
     text-transform: capitalize;
     font-size: var(--small-font-size);
 }
 
-.details_info li:last-child{
+.detail_info li:last-child{
     margin-bottom: 0;
 }
 
-.details_info li span{
+.detail_info li span{
     font-weight: normal;
 }
 
-.details_info li a{
+.detail_info li a{
     color: var(--skin-color);
     text-transform: lowercase;
 }
@@ -1227,7 +1227,7 @@ textarea.input{
         margin-bottom:var(--mb-1-5);
     }
 
-    .details_info{
+    .detail_info{
         margin-bottom:var(--mb-0-5)
     }
 
